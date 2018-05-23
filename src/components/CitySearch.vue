@@ -56,7 +56,7 @@ if (this.$ls.get('favoriteCities')) {
   
   methods: {
     saveCity: function (city) {
-    this.favorite.push(city);
+    this.favorites.push(city);
     this.$ls.set('favoriteCities', this.favorites);
     },
     
